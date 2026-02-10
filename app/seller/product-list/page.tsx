@@ -10,7 +10,18 @@ const ProductList = () => {
 
   const { router } = useAppContext()
 
-  const [products, setProducts] = useState([])
+  const [products, setProducts] = useState<Array<{
+    _id: string;
+    userId: string;
+    name: string;
+    description: string;
+    price: number;
+    offerPrice: number;
+    image: string[];
+    category: string;
+    date: number;
+    __v: number;
+  }>>([])
   const [loading, setLoading] = useState(true)
 
   const fetchSellerProduct = async () => {
