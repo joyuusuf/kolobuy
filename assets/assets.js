@@ -323,8 +323,8 @@ export const orderDummyData = [
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "J Allen Avenue, Cocoa House, Dugbe,",
-      "city": "City",
-      "state": "State",
+      "city": "Ibadan",
+      "state": "Oyo",
       "__v": 0
     },
     "status": "Order Placed",
@@ -362,8 +362,8 @@ export const orderDummyData = [
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "J Allen Avenue, Cocoa House, Dugbe,",
-      "city": "City",
-      "state": "State",
+      "city": "Ibadan",
+      "state": "Oyo",
       "__v": 0
     },
     "status": "Order Placed",
@@ -404,8 +404,8 @@ export const orderDummyData = [
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "J Allen Avenue, Cocoa House, Dugbe,",
-      "city": "City",
-      "state": "State",
+      "city": "Ibadan",
+      "state": "Oyo",
       "__v": 0
     },
     "status": "Order Placed",
@@ -422,8 +422,8 @@ export const addressDummyData = [
     "phoneNumber": "0123456789",
     "pincode": 654321,
     "area": "J Allen Avenue, Cocoa House, Dugbe,",
-    "city": "City",
-    "state": "State",
+    "city": "Ibadan",
+    "state": "Oyo",
     "__v": 0
   }
 ]
