@@ -10,7 +10,8 @@ const Navbar = () => {
     const { isSeller, router } = useAppContext();
 
     return (
-        <nav className="flex items-center justify-between px-6 md:px-16 lg:px-32 py-3 border-b border-gray-300 text-gray-700">
+       <nav className="fixed top-0 z-50 w-full flex items-center justify-between px-6 md:px-16 lg:px-32 py-3 border-b border-gray-300 bg-white text-gray-700">
+      
             {/* <Image
         className="cursor-pointer w-28 md:w-32"
         onClick={() => router.push('/')}
@@ -20,13 +21,13 @@ const Navbar = () => {
         alt="logo"
       /> */}
 
-            {assets.kolo && (
+            {assets.logo && (
                 <Image
                     className="cursor-pointer w-28 md:w-32"
                     onClick={() => router.push("/")}
-                    src={assets.kolo}
-                    height={50}
-                    width={50}
+                    src={assets.logo}
+                    // height={50}
+                    // width={50}
                     alt="logo"
                 />
             )}
