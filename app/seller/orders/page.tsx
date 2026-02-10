@@ -10,7 +10,7 @@ const Orders = () => {
 
     const { currency } = useAppContext();
 
-    const [orders, setOrders] = useState([]);
+    const [orders, setOrders] = useState<typeof orderDummyData>([]);
     const [loading, setLoading] = useState(true);
 
     const fetchSellerOrders = async () => {
