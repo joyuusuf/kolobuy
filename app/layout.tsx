@@ -8,8 +8,13 @@ const outfit = Outfit({ subsets: ['latin'], weight: ["300", "400", "500"] })
 
 export const metadata = {
   title: "Kolobuy - E-commerce",
-  description: "E-Commerce with Next.js ",
+  description: "E-Commerce with Next.js",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/assets/logo.png",     
+  },
 };
+
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

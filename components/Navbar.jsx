@@ -54,8 +54,8 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-6 lg:gap-8">
             <Link href="/">Home</Link>
             <Link href="/all-products">Shop</Link>
-            <Link href="/">About Us</Link>
-            <Link href="/">Contact</Link>
+            <Link href="/about-us">About Us</Link>
+            <Link href="/contact">Contact</Link>
 
             {isSeller && (
               <button
@@ -114,8 +114,8 @@ const Navbar = () => {
         <div className="flex flex-col gap-4 px-5 py-6">
           <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link href="/all-products" onClick={() => setMenuOpen(false)}>Shop</Link>
-          <Link href="/" onClick={() => setMenuOpen(false)}>About Us</Link>
-          <Link href="/" onClick={() => setMenuOpen(false)}>Contact</Link>
+          <Link href="/about-us" onClick={() => setMenuOpen(false)}>About Us</Link>
+          <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
 
           {isSeller && (
             <button
